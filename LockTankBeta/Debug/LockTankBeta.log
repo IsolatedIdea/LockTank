@@ -1,0 +1,32 @@
+﻿Build started 26/03/2013 11:25:39.
+     1>Project "C:\Users\Graeme\Dropbox\Uni\Semester02\ComputerGamesProgramming\LockTankBeta\LockTankBeta\LockTankBeta.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Programs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameWorld.cpp
+         GameWorld.cpp
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(156): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(165): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(443): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(454): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(469): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(488): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(503): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\graeme\dropbox\uni\semester02\computergamesprogramming\locktankbeta\locktankbeta\gameworld.cpp(518): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         E:\Programs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Graeme\Dropbox\Uni\Semester02\ComputerGamesProgramming\LockTankBeta\Debug\LockTankBeta.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Graeme\Dropbox\Uni\Semester02\ComputerGamesProgramming\LockTankBeta\Debug\LockTankBeta.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Graeme\Dropbox\Uni\Semester02\ComputerGamesProgramming\LockTankBeta\Debug\LockTankBeta.lib" /MACHINE:X86 Debug\AdditionalObjects.obj
+         Debug\Controls.obj
+         Debug\DeathScreen.obj
+         Debug\GameBoard.obj
+         Debug\GameWorld.obj
+         Debug\HomeScreen.obj
+         Debug\Lock.obj
+         Debug\LockSeg.obj
+         Debug\LockTank.obj
+         Debug\Shell.obj
+         Debug\Tank.obj
+         Debug\Turret.obj
+         LockTankBeta.vcxproj -> C:\Users\Graeme\Dropbox\Uni\Semester02\ComputerGamesProgramming\LockTankBeta\Debug\LockTankBeta.exe
+     1>Done Building Project "C:\Users\Graeme\Dropbox\Uni\Semester02\ComputerGamesProgramming\LockTankBeta\LockTankBeta\LockTankBeta.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.68
